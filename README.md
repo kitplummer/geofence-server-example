@@ -37,7 +37,7 @@ curl http://127.0.0.1:4242/fences
 # Query the fence
 # Replace :id with the actual string-representation of a Mongo Document ID
 # (You can find that by getting the fences with /fences)
-curl http://127.0.0.1:4242/relative-to-fence/:id/lon/lat
+curl http://127.0.0.1:4242/relative-to-fence/:id/lat/lon
 ```
 
 ## Exploring with the Console
